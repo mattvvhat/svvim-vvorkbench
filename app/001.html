@@ -1,0 +1,47 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>:/</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #xoxo {
+        display: block;
+        border: solid 1px black;
+        width: 500px;
+        height: 500px;
+
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas width="500" height="500" id="xoxo"></canvas>
+    <script src="BoxMuller.js"></script>
+    <script src="helpers.js"></script>
+    <script src="Path.js"></script>
+    <script src="App.js"></script>
+    <script src="index.js"></script>
+    <script>
+      ~function() {
+        var app = new App();
+
+        DRAW_LOOP(app);
+
+        function DRAW_LOOP() {
+          app.clear();
+          app.update();
+          app.draw();
+          // requestAnimationFrame(DRAW_LOOP);
+        }
+      }();
+
+      ~function() {
+        var a = new App();
+      }();
+    </script>
+  </body>
+</html>

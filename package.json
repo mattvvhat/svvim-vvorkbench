@@ -1,0 +1,17 @@
+{
+  "name": "svvim-vvorkbench",
+  "version": "0.0.0",
+  "description": "I'm thinking...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Owen <m@svv.im>",
+  "license": "UNLICENSE",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
